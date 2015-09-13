@@ -1,0 +1,30 @@
+@CHARSET "UTF-8";
+#main{
+	width:300px;
+	margin:0 auto;
+}
+body{
+	margin-top:0;
+}
+table{
+	clear:left;
+	width：100%;
+	margin:0 auto;
+	text-align:center;
+}
+td{
+	border-bottom:1px solid #a1E0FF;
+	height:30px;
+	width:200px
+}
+
+.class_name{
+	float:left;
+	height:30px; 
+	width:900%;
+	font-size:18px;
+	font-weight:bold;
+	margin:0 auto;
+	margin-top:10px;
+	padding-left:50px;
+}

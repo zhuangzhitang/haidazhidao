@@ -1,0 +1,28 @@
+@CHARSET "UTF-8";
+body{
+	background-color:#F3FEEA;
+}
+table{
+		background-color:#dcc3c4;
+		width:90%;
+		margin-left:5%;
+		margin-top:20%;
+		font-size:18px;
+		-webkit-box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+	   -moz-box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+	    -ms-box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+		 -o-box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+	        box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+		}
+tr{
+		background-color:#fff;
+	}
+	
+.info{
+		padding-top:3%;
+		padding-bottom:3%;
+	}
+.info_1{
+	font-size:15px;
+	padding-left:5%;
+}

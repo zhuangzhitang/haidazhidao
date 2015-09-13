@@ -1,0 +1,32 @@
+@CHARSET "UTF-8";
+#content{
+	width:100%;
+	height:530px;
+	text-align:center;
+	
+}
+#class_begin,#week_begin{
+	text-align:center;
+	width:100%;
+}
+
+.button_main{
+	width:100%;
+	text-align:center;
+}
+.button{
+	width:80%;
+	height:8%;
+	border:1px solid #ccc;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-o-border-radius:3px;
+	-webkit-border-radius:3px;
+	 outline:medium;
+	 background-color:#6c2;
+	 color:#fff;
+	 letter-spacing:5px;
+	 font-size:80%;
+	 margin-left:4%;
+	 margin-top:7%;
+}

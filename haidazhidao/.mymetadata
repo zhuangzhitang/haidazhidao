@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="haidazhidao"
+  id="myeclipse.1430838952737"
+  context-root="/haidazhidao"
+  j2ee-spec="5.0"
+  archive="haidazhidao.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

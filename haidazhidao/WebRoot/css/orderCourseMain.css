@@ -1,0 +1,40 @@
+@CHARSET "UTF-8";
+#main{
+	width:80%;
+	height:100%;
+	margin:0 auto;
+	text-align:center;
+	font-size:120%;
+	padding:0;
+	padding-top:20%;
+}
+ul{
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+li{
+	height:8%;
+}
+.search_name{
+	height:30%;
+}
+select{
+	width:80%;
+	height:80%;
+	
+}
+#buttonMain{
+	width:100%;
+	height:8%;
+	border:1px solid #ccc;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-o-border-radius:3px;
+	-webkit-border-radius:3px;
+	 outline:medium;
+	 background-color:#6c2;
+	 color:#fff;
+	 letter-spacing:5px;
+	 font-size:90%;
+}

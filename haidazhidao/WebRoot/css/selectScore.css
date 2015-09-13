@@ -1,0 +1,69 @@
+@CHARSET "UTF-8";
+
+ #table1{
+	margin-top:3%;
+	width:100%;
+	
+}
+tr{
+	background-color:transparent;
+	font-size:18px;
+	border:1px solid red
+}
+.title{
+	margin-top:8%;
+	font-size:20px;
+	font-weight:bold;
+}
+
+
+#table2{
+	margin-top:3%;
+	width:100%;
+	
+}
+.scoreName{
+	border-bottom:1px solid #a1E0FF;
+	padding-top:3%;
+
+}
+h4{
+	display:inline;
+}
+#header{
+	background-color:#a1E0FF;
+}
+
+.play{
+			width:0px;
+			height:0px;
+			border-left:10px solid #ccc;
+			border-top:8px solid rgba(255,255,255, 0);
+			border-bottom:8px solid rgba(255,255,255, 0);
+			margin-top:2px;
+			margin-left:10px;
+			margin-right:5px;
+			cursor:pointer;
+			float:left;
+			
+			}
+.pause{
+			width:0px;
+			height:0px;
+			border-top:10px solid #ccc;
+			border-left:8px solid rgba(255,255,255, 0);
+			border-right:8px solid rgba(255,255,255, 0);
+			margin-top:2px;
+			margin-left:10px;
+			margin-right:5px;
+			cursor:pointer;
+			float:left;
+}
+
+.info{
+	margin-top:5%;
+	margin-left:10%;
+	display:none;
+	
+}
+

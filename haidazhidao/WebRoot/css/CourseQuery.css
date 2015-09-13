@@ -1,0 +1,193 @@
+@CHARSET "UTF-8";
+body{
+	font-size:10px;
+	text-align:center;
+}
+
+table{
+	
+	text-align:center;
+	font-size:120%;
+	width:100%;
+	border-collapse:collapse;
+	background-color:#F3FEEA;
+	-webkit-box-shadow: 0 4px 1px rgba(0,0,0,0.2);
+	   -moz-box-shadow: 0 4px 1px rgba(0,0,0,0.2);
+	    -ms-box-shadow: 0 4px 1px rgba(0,0,0,0.2);
+		 -o-box-shadow: 0 4px 1px rgba(0,0,0,0.2);
+	        box-shadow: 0 4px 1px rgba(0,0,0,0.2);
+}
+
+.timeDay{
+	border-top:1px solid #b3d9ff;
+	border-left:1px solid #b3d9ff;
+	border-bottom:1px solid #b3d9ff;
+}
+#timeDay_1{
+	border-right:1px solid #b3d9ff;
+}
+#timeDay_2{
+	border-left:none;
+}
+
+#timeDay_8{
+	border-right:1px solid #b3d9ff;
+}
+
+.time{
+	
+	border-top:1px solid #b3d9ff;
+	border-left:1px solid #b3d9ff;
+	border-right:1px solid #b3d9ff;
+	padding-top:13%;
+	padding-left:5px;
+	padding-right:5px;
+}
+
+#time_1{
+	border-top:none;
+}
+
+#time_10{
+	border-bottom:1px solid #b3d9ff;
+}
+
+.Course_Name1{
+	border-radius:8px;
+	background-color:#D2E9FF;
+	color:#fff;
+	font-size:14px;
+	word-wrap:break-word;
+	padding-top:10%;
+	padding-bottom:35%;
+	-webkit-box-shadow: 1px 4px 1px rgba(0,0,0,0.2);
+	   -moz-box-shadow: 1px 4px 1px rgba(0,0,0,0.2);
+	    -ms-box-shadow: 1px 4px 1px rgba(0,0,0,0.2);
+		 -o-box-shadow: 1px 4px 1px rgba(0,0,0,0.2);
+	        box-shadow: 2px 4px 1px rgba(0,0,0,0.2);
+}
+
+.Course_Name2{
+	background-color:#93FFAE;
+	border-radius:8px;
+	padding-top:10%;
+	padding-bottom:35%;
+	color:#fff;
+	font-size:14px;
+	-webkit-box-shadow: 1px 4px 1px rgba(0,0,0,0.2);
+	   -moz-box-shadow: 1px 4px 1px rgba(0,0,0,0.2);
+	    -ms-box-shadow: 1px 4px 1px rgba(0,0,0,0.2);
+		 -o-box-shadow: 1px 4px 1px rgba(0,0,0,0.2);
+	        box-shadow: 2px 4px 1px rgba(0,0,0,0.2);
+}
+
+.Course_Name3{
+	background-color:#B3BBF9;
+	border-radius:8px;
+	padding-top:10%;
+	padding-bottom:35%;
+	color:#fff;
+	font-size:14px;
+	-webkit-box-shadow: 1px 4px 1px rgba(0,0,0,0.2);
+	   -moz-box-shadow: 1px 4px 1px rgba(0,0,0,0.2);
+	    -ms-box-shadow: 1px 4px 1px rgba(0,0,0,0.2);
+		 -o-box-shadow: 1px 4px 1px rgba(0,0,0,0.2);
+	        box-shadow: 2px 4px 1px rgba(0,0,0,0.2);
+}
+
+.Course_Name4{
+	background-color:#FFAC84;
+	border-radius:8px;
+	padding-top:10%;
+	padding-bottom:35%;
+	color:#fff;
+	font-size:14px;
+	-webkit-box-shadow: 1px 4px 1px rgba(0,0,0,0.2);
+	   -moz-box-shadow: 1px 4px 1px rgba(0,0,0,0.2);
+	    -ms-box-shadow: 1px 4px 1px rgba(0,0,0,0.2);
+		 -o-box-shadow: 1px 4px 1px rgba(0,0,0,0.2);
+	        box-shadow: 2px 4px 1px rgba(0,0,0,0.2);
+}
+
+.Course_Name5{
+	background-color:#9CCDCD;
+	border-radius:8px;
+	padding-top:10%;
+	padding-bottom:35%;
+	color:#fff;
+	font-size:14px;
+	-webkit-box-shadow: 1px 4px 1px rgba(0,0,0,0.2);
+	   -moz-box-shadow: 1px 4px 1px rgba(0,0,0,0.2);
+	    -ms-box-shadow: 1px 4px 1px rgba(0,0,0,0.2);
+		 -o-box-shadow: 1px 4px 1px rgba(0,0,0,0.2);
+	        box-shadow: 2px 4px 1px rgba(0,0,0,0.2);
+}
+.Course_Name6{
+	background-color:#00B75B;
+	border-radius:8px;
+	padding-top:10%;
+	padding-bottom:35%;
+	color:#fff;
+	font-size:14px;
+	-webkit-box-shadow: 1px 4px 1px rgba(0,0,0,0.2);
+	   -moz-box-shadow: 1px 4px 1px rgba(0,0,0,0.2);
+	    -ms-box-shadow: 1px 4px 1px rgba(0,0,0,0.2);
+		 -o-box-shadow: 1px 4px 1px rgba(0,0,0,0.2);
+	        box-shadow: 2px 4px 1px rgba(0,0,0,0.2);
+}
+
+.Course_Name7{
+	background-color:#A6A653;
+	border-radius:8px;
+	padding-top:10%;
+	padding-bottom:35%;
+	color:#fff;
+	font-size:14px;
+	-webkit-box-shadow: 1px 4px 1px rgba(0,0,0,0.2);
+	   -moz-box-shadow: 1px 4px 1px rgba(0,0,0,0.2);
+	    -ms-box-shadow: 1px 4px 1px rgba(0,0,0,0.2);
+		 -o-box-shadow: 1px 4px 1px rgba(0,0,0,0.2);
+	        box-shadow: 2px 4px 1px rgba(0,0,0,0.2);
+}
+
+.Course_Name8{
+	background-color:#804040;
+	border-radius:8px;
+	padding-top:10%;
+	padding-bottom:35%;
+	color:#fff;
+	font-size:14px;
+	-webkit-box-shadow: 1px 4px 1px rgba(0,0,0,0.2);
+	   -moz-box-shadow: 1px 4px 1px rgba(0,0,0,0.2);
+	    -ms-box-shadow: 1px 4px 1px rgba(0,0,0,0.2);
+		 -o-box-shadow: 1px 4px 1px rgba(0,0,0,0.2);
+	        box-shadow: 2px 4px 1px rgba(0,0,0,0.2);
+}
+
+.Course_Name9{
+	background-color:#FF8080;
+	border-radius:8px;
+	padding-top:10%;
+	padding-bottom:35%;
+	color:#fff;
+	font-size:14px;
+	-webkit-box-shadow: 1px 4px 1px rgba(0,0,0,0.2);
+	   -moz-box-shadow: 1px 4px 1px rgba(0,0,0,0.2);
+	    -ms-box-shadow: 1px 4px 1px rgba(0,0,0,0.2);
+		 -o-box-shadow: 1px 4px 1px rgba(0,0,0,0.2);
+	        box-shadow: 2px 4px 1px rgba(0,0,0,0.2);
+}
+.Course_Name10{
+	background-color:#FF0;
+	border-radius:8px;
+padding-top:10%;
+	padding-bottom:35%;
+	color:#fff;
+	font-size:14px;
+	-webkit-box-shadow: 1px 4px 1px rgba(0,0,0,0.2);
+	   -moz-box-shadow: 1px 4px 1px rgba(0,0,0,0.2);
+	    -ms-box-shadow: 1px 4px 1px rgba(0,0,0,0.2);
+		 -o-box-shadow: 1px 4px 1px rgba(0,0,0,0.2);
+	        box-shadow: 2px 4px 1px rgba(0,0,0,0.2);
+}
+

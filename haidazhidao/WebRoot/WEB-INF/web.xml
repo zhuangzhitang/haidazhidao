@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>	
+   
+    <listener>
+     <listener-class>com.jkteam.zhidao.Listener.RemindHaveClassListener</listener-class>
+    </listener>
+  
+   <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BaseServlet</servlet-name>
+    <servlet-class>com.jkteam.zhidao.base.BaseServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ScoreQueryServlet</servlet-name>
+    <servlet-class>com.jkteam.zhidao.query.ScoreQueryServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CourseQueryServlet</servlet-name>
+    <servlet-class>com.jkteam.zhidao.query.CourseQueryServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ClassroomQueryServlet</servlet-name>
+    <servlet-class>com.jkteam.zhidao.query.ClassroomQueryServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AlreadyOptionalCourseServlet</servlet-name>
+    <servlet-class>com.jkteam.zhidao.query.AlreadyOptionalCourseServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>NoticeServlet</servlet-name>
+    <servlet-class>com.jkteam.zhidao.query.NoticeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BindingServlet</servlet-name>
+    <servlet-class>com.jkteam.zhidao.base.BindingServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ExamQueryServlet</servlet-name>
+    <servlet-class>com.jkteam.zhidao.query.ExamQueryServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OrderCourseServlet</servlet-name>
+    <servlet-class>com.jkteam.zhidao.other.OrderCourseServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OrderCourseServlet1</servlet-name>
+    <servlet-class>com.jkteam.zhidao.other.OrderCourseServlet1</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OpenOptionCourseServlet</servlet-name>
+    <servlet-class>com.jkteam.zhidao.other.OpenOptionCourseServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ClassRemindingServlet</servlet-name>
+    <servlet-class>com.jkteam.zhidao.base.ClassRemindingServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.jkteam.zhidao.base.LoginServlet</servlet-class>
+  </servlet>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>BaseServlet</servlet-name>
+    <url-pattern>/BaseServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ScoreQueryServlet</servlet-name>
+    <url-pattern>/ScoreQueryServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CourseQueryServlet</servlet-name>
+    <url-pattern>/CourseQueryServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ClassroomQueryServlet</servlet-name>
+    <url-pattern>/ClassroomQueryServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AlreadyOptionalCourseServlet</servlet-name>
+    <url-pattern>/AlreadyOptionalCourseServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>NoticeServlet</servlet-name>
+    <url-pattern>/NoticeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BindingServlet</servlet-name>
+    <url-pattern>/BindingServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ExamQueryServlet</servlet-name>
+    <url-pattern>/ExamQueryServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OrderCourseServlet</servlet-name>
+    <url-pattern>/OrderCourseServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OrderCourseServlet1</servlet-name>
+    <url-pattern>/OrderCourseServlet1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OpenOptionCourseServlet</servlet-name>
+    <url-pattern>/OpenOptionCourseServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ClassRemindingServlet</servlet-name>
+    <url-pattern>/ClassRemindingServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
